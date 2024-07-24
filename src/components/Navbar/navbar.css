@@ -1,42 +1,31 @@
 .navbar {
-  height: 5rem;
-  width: 100vw;
-  max-width: 75rem;
-  margin: 0 auto;
-  padding: 1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 3;
+  margin: 20px 170x;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
 }
 
 .logo {
-  object-fit: cover;
-  height: 3rem;
-  width: 4rem;
+  height: 5px;
+  width: 5px;
 }
 
-.desktopMenuListItem {
-  margin: 1rem;
+.nav-connect {
+  padding: 20px 40px;
+  border-radius: 50px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.6%);
+  font-size: 22px;
   cursor: pointer;
+  transition: 0.5s;
 }
-
-.desktopMenuBtn {
-  background: white;
-  color: black;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 1rem;
-  border-radius: 2rem;
-}
-
-.desktopMenusImg {
-  object-fit: cover;
-  height: 1rem;
-  width: 1rem;
-  margin: 1rem;
+.nav-connect:hover {
+  transform: scale(1.05);
 }

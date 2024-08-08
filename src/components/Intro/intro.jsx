@@ -1,11 +1,11 @@
 import React from "react";
 import "./intro.css";
-// import profilelogo from "../../assets/tempLogo.jpq";
+import profilelogo from "./profile_img.svg";
 
 function Intro() {
   return (
     <div className="intro">
-      {/* <img src={profilelogo} alt="Logo" className="logo" /> */}
+      <img src={profilelogo} alt="Logo" className="logo" />
       <h1>
         <span>Hello! I'm Peter Park,</span> fullstack web and mobile app
         developer
